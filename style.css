@@ -209,6 +209,16 @@ body {
     margin-bottom: 40px;
 }
 
+@media (max-width: 768px) {
+
+    .about-content h2 {
+        font-size: clamp(38px, 10vw, 58px);
+        line-height: 0.95;
+        letter-spacing: -1.5px;
+    }
+
+}
+
 .about-content p {
     font-size: clamp(20px, 2.2vw, 32px);
     line-height: 1.35;
