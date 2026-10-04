@@ -2032,6 +2032,7 @@ body {
 }
 
 .site-footer-credit a {
+    display: inline-block;
     color: #9f895f;
     text-decoration: none;
     transition: opacity 0.3s ease;
@@ -2080,9 +2081,9 @@ body {
 
 .dining-screen {
     position: relative;
-    width: 80%;
-    max-width: 1200px;
-    height: 750px;
+    width: 90%;
+    max-width: 1500px;
+    height: 950px;
     margin: 0 auto;
     overflow: hidden;
 }
